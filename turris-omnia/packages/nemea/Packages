@@ -1,0 +1,256 @@
+Package: nemea-ble_hci_collector
+Version: 19-08.1-1
+Depends: libc, nemea-framework, libpthread, librt, libstdcpp, bluez-libs
+Source: feeds/nemea/net/nemea-siot
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mvebu
+Installed-Size: 16958
+Filename: nemea-ble_hci_collector_19-08.1-1_mvebu.ipk
+Size: 17952
+MD5Sum: a0ba0250492dd7a047a8c3afdef90f44
+SHA256sum: bd69be81475c40b18bb36e3afaca42c202654007d38a56be89ca6ebd00f01cf5
+Description:  NEMEA SIoT modules BLE HCI collector
+
+Package: nemea-ble_pairing
+Version: 19-08.1-1
+Depends: libc, nemea-framework, libpthread, librt, libstdcpp, bluez-libs
+Source: feeds/nemea/net/nemea-siot
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mvebu
+Installed-Size: 19455
+Filename: nemea-ble_pairing_19-08.1-1_mvebu.ipk
+Size: 20335
+MD5Sum: f236e930f43d41c0e1690de908b334cb
+SHA256sum: 49f138a26c21bdfbdb3945c0267e530d383de3d6641eef7f1eb60946a7c102a1
+Description:  NEMEA SIoT modules BLE pairing detector
+
+Package: nemea-flow_meter
+Version: 19-07.1-1
+Depends: libc, nemea-framework, libpthread, librt, libpcap, libstdcpp
+Source: feeds/nemea/net/nemea-modules
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mvebu
+Installed-Size: 81754
+Filename: nemea-flow_meter_19-07.1-1_mvebu.ipk
+Size: 81885
+MD5Sum: c0685def0620f6ea6117ec5b3c459ed7
+SHA256sum: 669b65616b4e02ccb99a71afac7867f331cf92c6c930a0a1aeaaa6db3fd959ca
+Description:  NEMEA module flow_meter
+
+Package: nemea-flowcounter
+Version: 19-07.1-1
+Depends: libc, nemea-framework, libpthread, librt
+Source: feeds/nemea/net/nemea-modules
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mvebu
+Installed-Size: 15516
+Filename: nemea-flowcounter_19-07.1-1_mvebu.ipk
+Size: 16439
+MD5Sum: a5617cf37ea7046bfacf3f38cf1bdcd2
+SHA256sum: 82050029e84bb1b4466fcc361f1f2901042dd1cdd2165ee99a50fd32f74ea3ce
+Description:  NEMEA module flowcounter
+
+Package: nemea-framework
+Version: 2.1.0-1
+Depends: libc, libpthread, librt, libstdcpp, libopenssl
+Source: feeds/nemea/libs/nemea-framework
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mvebu
+Installed-Size: 99858
+Filename: nemea-framework_2.1.0-1_mvebu.ipk
+Size: 100612
+MD5Sum: 012777e29ff53484a7b584f62fa24a08
+SHA256sum: 5f3f255afadee45e3d8bffc1796b763effd12ab6b8e54ae49d4a6af215c50439
+Description:  This package contains a system-independent library for the Nemea system - system for network traffic analysis and anomaly detection.
+
+Package: nemea-ipfixprobe
+Version: 19-07.1-1
+Depends: libc, libpcap, libpthread, libstdcpp
+Source: feeds/nemea/net/nemea-modules
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mvebu
+Installed-Size: 62051
+Filename: nemea-ipfixprobe_19-07.1-1_mvebu.ipk
+Size: 62939
+MD5Sum: 1503a3cc574dd99e558783ecfd605de0
+SHA256sum: 7df20717cc67a477efb05e0510191c42f3ddaab6d5eed34279ae53382d1231f4
+Description:  NEMEA module ipfixprobe
+
+Package: nemea-logger
+Version: 19-07.1-1
+Depends: libc, nemea-framework, libpthread, librt
+Source: feeds/nemea/net/nemea-modules
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mvebu
+Installed-Size: 19428
+Filename: nemea-logger_19-07.1-1_mvebu.ipk
+Size: 20274
+MD5Sum: d16b2db3c12cdea76d5ab5579500e51b
+SHA256sum: 19fe1d043395ea78a486fb6cdb8faca3dfe260cea2a38cf82136aa9a4982e345
+Description:  NEMEA module logger
+
+Package: nemea-logreplay
+Version: 19-07.1-1
+Depends: libc, nemea-framework, libpthread, librt, libstdcpp
+Source: feeds/nemea/net/nemea-modules
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mvebu
+Installed-Size: 17858
+Filename: nemea-logreplay_19-07.1-1_mvebu.ipk
+Size: 18767
+MD5Sum: 36a2072d78976e4820c45df4e7116cf9
+SHA256sum: 48e21ec6b1340124898f4aea88021c353d0dd9421cdc3c626494affbe47147e8
+Description:  NEMEA module logreplay
+
+Package: nemea-lora-airtime
+Version: 19-08.1-1
+Depends: libc, nemea-framework, libpthread, librt
+Source: feeds/nemea/net/nemea-siot
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mvebu
+Installed-Size: 20113
+Filename: nemea-lora-airtime_19-08.1-1_mvebu.ipk
+Size: 21050
+MD5Sum: b2f665cfbd50dd39f97a494ec518784d
+SHA256sum: 9704058a2859bae6fdf913b123215ce7f47d9c8e842073cfb1d4c07b2bed6b9d
+Description:  NEMEA SIoT modules LoRaWAN Airtime regulations
+
+Package: nemea-lora-distance
+Version: 19-08.1-1
+Depends: libc, nemea-framework, libpthread, librt
+Source: feeds/nemea/net/nemea-siot
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mvebu
+Installed-Size: 19103
+Filename: nemea-lora-distance_19-08.1-1_mvebu.ipk
+Size: 20046
+MD5Sum: e686ad7c5d61ce671970ac560b7ab9ed
+SHA256sum: d381940f1d671b81466c0853ed3ed5aef28dcd37541fd58b2342c822fed2f500
+Description:  NEMEA SIoT modules LoRaWAN detection of distance change
+
+Package: nemea-lora-replay-abp
+Version: 19-08.1-1
+Depends: libc, nemea-framework, libpthread, librt
+Source: feeds/nemea/net/nemea-siot
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mvebu
+Installed-Size: 19066
+Filename: nemea-lora-replay-abp_19-08.1-1_mvebu.ipk
+Size: 20008
+MD5Sum: ad3d6e0fb9f2c5d7f56ffe525816248b
+SHA256sum: 6f28be9a5d59f141d085272015c28974d2b9c6633608780317a65c226e6c00a9
+Description:  NEMEA SIoT modules LoRaWAN Replay attack ABP detection
+
+Package: nemea-merger
+Version: 19-07.1-1
+Depends: libc, nemea-framework, libpthread, librt
+Source: feeds/nemea/net/nemea-modules
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mvebu
+Installed-Size: 15672
+Filename: nemea-merger_19-07.1-1_mvebu.ipk
+Size: 16512
+MD5Sum: 4e8cb32483c620d67b8b836a0cb17593
+SHA256sum: 3dac7940d289aea994679febd30e5787469bc82daa59fa947ab25f5009ea183b
+Description:  NEMEA module merger
+
+Package: nemea-supervisorl
+Version: 19-07.1-1
+Depends: libc
+Source: feeds/nemea/net/nemea-modules
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mvebu
+Installed-Size: 2044
+Filename: nemea-supervisorl_19-07.1-1_mvebu.ipk
+Size: 3009
+MD5Sum: f21bb7487d96c16f764854728ff33799
+SHA256sum: ee4c0f507dce4a5b68f8d89598a260acc02e1bce801247707b0de4dea3bcf7f5
+Description:  NEMEA module supervisorl
+
+Package: nemea-topn
+Version: 19-07.1-1
+Depends: libc, nemea-framework, libpthread, librt
+Source: feeds/nemea/net/nemea-modules
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mvebu
+Installed-Size: 9817
+Filename: nemea-topn_19-07.1-1_mvebu.ipk
+Size: 10748
+MD5Sum: 56623aa4bfb2f50eee277df38fd33b73
+SHA256sum: 83c81c383a0799636f23f6c33e4807060514db79601d8cb6061d4ba57dfc91b3
+Description:  NEMEA module topn
+
+Package: nemea-traffic_repeater
+Version: 19-07.1-1
+Depends: libc, nemea-framework, libpthread, librt
+Source: feeds/nemea/net/nemea-modules
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mvebu
+Installed-Size: 4001
+Filename: nemea-traffic_repeater_19-07.1-1_mvebu.ipk
+Size: 4918
+MD5Sum: e86604eb8d6c83c856e345ddf8b77984
+SHA256sum: 9ce5cdf2e18d07fa698459f217ccfc0043530427e037904d169984ccbfa3d8f0
+Description:  NEMEA module traffic_repeater
+
+Package: nemea-wsn-detector
+Version: 19-08.1-1
+Depends: libc, nemea-framework, libpthread, librt
+Source: feeds/nemea/net/nemea-siot
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mvebu
+Installed-Size: 53063
+Filename: nemea-wsn-detector_19-08.1-1_mvebu.ipk
+Size: 54111
+MD5Sum: c360d330b35273ffc7dfaebf3a2bc7e7
+SHA256sum: 5b1f152b057b24ee63dbea19f435a4dc5d98a592b48fc74b8d6091975afbb506
+Description:  NEMEA SIoT modules Wireless Sensor Network Detector (based on time series)
+

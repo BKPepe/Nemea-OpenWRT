@@ -1,0 +1,160 @@
+Package: nemea-flow_meter
+Version: 19-07.1-1
+Depends: libc, nemea-framework, libpthread, librt, libpcap, libstdcpp
+Source: feeds/nemea/net/nemea-modules
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mpc85xx
+Installed-Size: 93680
+Filename: nemea-flow_meter_19-07.1-1_mpc85xx.ipk
+Size: 93380
+MD5Sum: 4646aee37f01c17adeb8ae1b3b235961
+SHA256sum: ff8cd6d4ddd73706e8c49417a60587bb8f8279df343a97e53dc67a75271cc62f
+Description:  NEMEA module flow_meter
+
+Package: nemea-flowcounter
+Version: 19-07.1-1
+Depends: libc, nemea-framework, libpthread, librt
+Source: feeds/nemea/net/nemea-modules
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mpc85xx
+Installed-Size: 16847
+Filename: nemea-flowcounter_19-07.1-1_mpc85xx.ipk
+Size: 17732
+MD5Sum: b1da53cf5d2a463832f76788c5442b48
+SHA256sum: d623fe7fe61d521ca00882f16999880c14c6318b5ef8c9310f0aec03d51ee2c3
+Description:  NEMEA module flowcounter
+
+Package: nemea-framework
+Version: 2.1.0-1
+Depends: libc, libpthread, librt, libstdcpp, libopenssl
+Source: feeds/nemea/libs/nemea-framework
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mpc85xx
+Installed-Size: 102525
+Filename: nemea-framework_2.1.0-1_mpc85xx.ipk
+Size: 103239
+MD5Sum: 08259d247305e85766e9478861c3b495
+SHA256sum: a3f737b7242c2cbe9725ec5f84cab0cd7a52635000d59da6f6a32d25f380b246
+Description:  This package contains a system-independent library for the Nemea system - system for network traffic analysis and anomaly detection.
+
+Package: nemea-ipfixprobe
+Version: 19-07.1-1
+Depends: libc, libpcap, libpthread, libstdcpp
+Source: feeds/nemea/net/nemea-modules
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mpc85xx
+Installed-Size: 71427
+Filename: nemea-ipfixprobe_19-07.1-1_mpc85xx.ipk
+Size: 72256
+MD5Sum: 11101bea806f4bd86aa36fa259927475
+SHA256sum: 7edc28455863dcc560c788f4e52b23fa90122c88b3fc7e5a4e9be23395f45987
+Description:  NEMEA module ipfixprobe
+
+Package: nemea-logger
+Version: 19-07.1-1
+Depends: libc, nemea-framework, libpthread, librt
+Source: feeds/nemea/net/nemea-modules
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mpc85xx
+Installed-Size: 20950
+Filename: nemea-logger_19-07.1-1_mpc85xx.ipk
+Size: 21689
+MD5Sum: b19ed627baf97cc71032f09880486418
+SHA256sum: 5cedad362d99d185e4930a5c20a8f52b4cc7d795d54b3b740c06cca82a2fe70c
+Description:  NEMEA module logger
+
+Package: nemea-logreplay
+Version: 19-07.1-1
+Depends: libc, nemea-framework, libpthread, librt, libstdcpp
+Source: feeds/nemea/net/nemea-modules
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mpc85xx
+Installed-Size: 19776
+Filename: nemea-logreplay_19-07.1-1_mpc85xx.ipk
+Size: 20661
+MD5Sum: 59265e2edfd45b684ec13697aec96f47
+SHA256sum: ffed5ccf24c822b400534a59d4c0b2d22f4a4b13bd8cc327059f4dfe685fa990
+Description:  NEMEA module logreplay
+
+Package: nemea-merger
+Version: 19-07.1-1
+Depends: libc, nemea-framework, libpthread, librt
+Source: feeds/nemea/net/nemea-modules
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mpc85xx
+Installed-Size: 16871
+Filename: nemea-merger_19-07.1-1_mpc85xx.ipk
+Size: 17824
+MD5Sum: 1de6ce4ae5a1b15e4268bda215359d8c
+SHA256sum: d9b094d96d38c7c394131ae0b99e37015cee3d05725797bec9b83e583ec1535d
+Description:  NEMEA module merger
+
+Package: nemea-supervisorl
+Version: 19-07.1-1
+Depends: libc
+Source: feeds/nemea/net/nemea-modules
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mpc85xx
+Installed-Size: 2044
+Filename: nemea-supervisorl_19-07.1-1_mpc85xx.ipk
+Size: 3008
+MD5Sum: a79cb606955c858ff2e768aaf552bec2
+SHA256sum: 016db92e3e41c529f1d84b44b6a5be551bad95bd43f8044f80a18656acd13f09
+Description:  NEMEA module supervisorl
+
+Package: nemea-topn
+Version: 19-07.1-1
+Depends: libc, nemea-framework, libpthread, librt
+Source: feeds/nemea/net/nemea-modules
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mpc85xx
+Installed-Size: 10897
+Filename: nemea-topn_19-07.1-1_mpc85xx.ipk
+Size: 11830
+MD5Sum: 9d26bfa77cb4899c36cd39062cc4d34b
+SHA256sum: ab150e3be5b0c7d6ba28d626ff17a0dd92dbbc8f7ed3fd88e3ee8a08aacf6933
+Description:  NEMEA module topn
+
+Package: nemea-traffic_repeater
+Version: 19-07.1-1
+Depends: libc, nemea-framework, libpthread, librt
+Source: feeds/nemea/net/nemea-modules
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Tomas Cejka <cejkat@cesnet.cz>
+Architecture: mpc85xx
+Installed-Size: 4214
+Filename: nemea-traffic_repeater_19-07.1-1_mpc85xx.ipk
+Size: 5133
+MD5Sum: a0d2adfe108bb94bae55539243ae5a92
+SHA256sum: ff3e4bf72b527ee85814eeb209aaf62ee6066324c5e84ff0caef66aaf3cef4d1
+Description:  NEMEA module traffic_repeater
+
